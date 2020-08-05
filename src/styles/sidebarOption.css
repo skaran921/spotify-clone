@@ -1,5 +1,7 @@
 .sidebar-option {
   color: gray;
+  display: flex;
+  align-items: center;
   height: 40px;
   cursor: pointer;
   transition: 200ms color ease-in;
@@ -7,4 +9,15 @@
 
 .sidebar-option:hover {
   color: #fafafa;
+}
+
+.sidebar-option-icon {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.sidebar-option > p {
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 14px;
 }
