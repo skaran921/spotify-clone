@@ -1,0 +1,27 @@
+.sidebar {
+  height: 100vh;
+  flex: 0.2;
+  background-color: #040404;
+  color: #fafafa;
+  min-width: 230px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.sidebar-logo {
+  transition: 0.3s ease-in-out;
+  margin-right: auto;
+  height: 60px;
+  object-fit: contain;
+  width: auto;
+  padding: 10px;
+}
+
+@media only screen and(max-width: 300px) {
+  .sidebar-logo {
+    height: 50px;
+    object-fit: contain;
+    margin-right: auto;
+    padding: 10px;
+  }
+}
