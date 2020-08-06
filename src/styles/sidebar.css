@@ -17,11 +17,15 @@
   padding: 10px;
 }
 
-@media only screen and(max-width: 300px) {
-  .sidebar-logo {
-    height: 50px;
-    object-fit: contain;
-    margin-right: auto;
-    padding: 10px;
-  }
+.sidebar > hr {
+  border: 1px solid #282828;
+  width: 90%;
+  margin: 10px auto;
+}
+
+.sidebar-title {
+  margin-left: 12px;
+  font-size: 12px;
+  padding: 5px;
+  letter-spacing: 1px;
 }
