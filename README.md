@@ -1,9 +1,8 @@
 ## Sptoify - Clone
 
-```
       Login Screen
       <img src="./screenshots/1.png" width="800" height="600">
-```
+
 
 
      ```
