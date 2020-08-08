@@ -1,7 +1,7 @@
 ## Sptoify - Clone
 
-Login Screen
-<img src="./screenshots/1.png" width="800" height="600">
+<h6>Login Screen</h6>
+<img src="./screenshots/1.png" width="800" height="450">
 
 
 
