@@ -8,6 +8,7 @@ import {
   SET_USER_ACTION,
   SET_TOKEN_ACTION,
   SET_PLAYLIST_ACTION,
+  SET_BOLLYWOOD_ACTION,
 } from "./context/actions";
 const spotify = new SpotifyWebApi();
 const App = () => {
@@ -41,6 +42,12 @@ const App = () => {
         dispatch({
           type: SET_PLAYLIST_ACTION,
           playlists: playlists,
+        });
+      });
+      spotify.getPlaylist("4KqCkIu2AytUtkKqwK592U").then((response) => {
+        dispatch({
+          type: SET_BOLLYWOOD_ACTION,
+          bollywood_playlist: response,
         });
       });
     }

@@ -3,6 +3,11 @@
   flex: 0.8;
   height: 100vh;
   color: #fafafa;
+  overflow-y: overlay;
+}
+
+.body::-webkit-scrollbar {
+  display: none;
 }
 
 .body-info {
@@ -12,7 +17,7 @@
 }
 
 .body-info > img {
-  width: 20vw;
+  width: 12vw;
   margin: 0 20px;
   box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
 }
@@ -28,4 +33,31 @@
 
 .body-info-text > p {
   font-size: 14px;
+}
+
+.body-songs {
+  margin: 0px -30px;
+  margin-top: 20px;
+  margin-bottom: 150px;
+}
+
+.body-icons {
+  display: flex;
+  align-items: center;
+}
+
+.body-icons > .MuiSvgIcon-root {
+  margin-right: 20px;
+}
+
+.body-shuffle-btn {
+  font-size: 80px !important;
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.body-shuffle-btn:hover {
+  transition: 100ms transform ease-in;
+  transform: scale(1.08);
 }
